@@ -1,0 +1,77 @@
+@media( max-width: 800px ) {
+    .logo {
+        margin: 7% 0 2% 10%;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .container {
+        margin-bottom: 20px;
+    }
+
+    .container .info h1{
+        font-size: 24px;
+    }
+
+    .container .info a {
+        padding: 9px 40px;
+        font-size: 14px;
+    }
+}
+
+@media( max-width: 425px ) {
+    body {
+        background: url('../images/bg-mobile.svg') no-repeat hsl(257, 40%, 49%);
+        background-size: contain;
+      }
+
+    .content {
+        align-items: center;
+    }
+
+    .logo img {
+        width: 100px;
+        margin: 20px 0 20px 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+        width: 85%;
+        padding: 10px;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .container .info {
+        padding: 20px 3px;
+    }
+
+    .container .info h1{
+        font-size: 18px;
+        padding-inline: 5px;
+    }
+
+    .container .info p{
+        font-size: 13px;
+
+    }
+
+    .container .info a {
+        padding: 9px 70px;
+        font-size: 11px;
+    }
+
+    .social{
+        justify-content: center;
+        margin-bottom: 35px;
+        gap: 10px;
+    }
+
+    .social i {
+        font-size: 11px;
+        padding: 6px;
+    }
+}
