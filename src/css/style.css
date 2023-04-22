@@ -1,16 +1,18 @@
-body{
+body {
     background: url(../images/bg-desktop.svg) no-repeat hsl(257, 40%, 49%);
-    background-size: cover;  
+    background-size: cover;
     min-height: 100vh;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .content {
     max-width: 1340px;
-    min-height: 90vh;
+    min-height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,12 +41,12 @@ body{
     align-items: center;
 }
 
-.container .main-image img{
+.container .main-image img {
     max-width: 85%;
     height: auto;
 }
 
-.container .info{
+.container .info {
     max-width: 430px;
     height: auto;
     padding: 20px;
@@ -58,7 +60,7 @@ body{
 
 .container .info p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;  
+    font-size: 14px;
     line-height: 24px;
     margin-bottom: 20px;
 }
@@ -66,7 +68,7 @@ body{
 .container .info a {
     background-color: #fff;
     display: inline-block;
-    color:hsl(257, 40%, 49%);
+    color: hsl(257, 40%, 49%);
     padding: 12px 55px;
     font-size: 15px;
     border-radius: 50px;
@@ -74,12 +76,12 @@ body{
     transition: 0.2s ease-in-out;
 }
 
-.container .info a:hover{
+.container .info a:hover {
     background-color: hsl(300, 69%, 71%);
     color: #fff;
 }
 
-footer{
+footer {
     width: 100%;
 }
 
@@ -93,12 +95,17 @@ footer{
 
 .social i {
     border: solid 1px #fff;
+    color: #fff;
     border-radius: 50%;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     transition: 0.2s ease-in-out;
 }
 
-.social i:hover{
+.social i:hover {
     border-color: hsl(300, 69%, 71%);
     color: hsl(300, 69%, 71%);
 }
